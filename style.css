@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.calculator {
+    width: 250px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: beige;
+}
+
+.calculator input {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #999;
+    border-radius: 5px;
+    box-sizing: border-box; /* ensures padding doesn't push width out */
+}
+
+.buttons button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    background: #93c6df;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background: #555;
+}
